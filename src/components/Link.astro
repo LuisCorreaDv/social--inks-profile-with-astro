@@ -1,0 +1,11 @@
+---
+//Props
+const { name, url } = Astro.props;
+---
+
+<a
+  href={url}
+  class="w-full bg-[#333333] text-white text-center py-2 rounded hover:bg-[#c4f82a] hover:text-black transition font-semibold leading-[1.5] text-sm"
+>
+  {name}
+</a>
